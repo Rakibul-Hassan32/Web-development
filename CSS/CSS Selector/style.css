@@ -1,0 +1,26 @@
+/* universal selector */
+*{
+    color: #70adc2;
+    box-sizing: border-box;
+    margin: 50;
+    padding: 200;
+}
+/* tag selector */
+h1{
+    color: red;
+}
+button{
+    color: pink;
+}
+/* class selector */
+.para{
+    color: blueviolet;
+}
+/* id selector */
+#btn{
+    color: blue;
+}
+/* attribute selector */
+[href]{
+    color: red;
+}

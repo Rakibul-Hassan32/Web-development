@@ -1,0 +1,60 @@
+/* text formatting
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.para1{
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: justify;
+}
+.para2{
+    font-size: 40px;
+    text-transform: lowercase;
+    letter-spacing: 10px; 
+    word-spacing: 10px;
+    line-height: 52px;
+    text-indent: 40px;
+    text-shadow: 10px 10px 10px blue;
+} */
+
+/* custom fonts */
+
+/* google font importing */
+@import url('https://fonts.googleapis.com/css2?family=Farsan&display=swap');
+
+/* offline fonts */
+@font-face {
+    font-family: 'Night Full Of Light';
+    src: url(./Night\ Full\ Of\ Light.ttf);
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Night Full Of Light';
+}
+.para0{
+    text-align: justify;
+    font-size: 30px;
+    text-indent: 2%;
+    /* text-transform: capitalize; */
+    font-family: 'Night Full Of Light';
+}
+/* online font */
+.para1{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+     
+}
+.para2{
+    text-align: justify;
+    font-family: 'Farsan', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+p{
+    font-size: 30px;
+    text-align: justify;
+}
